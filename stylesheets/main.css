@@ -7,10 +7,44 @@
   list-style-type: none;
 }
 
+#a-portada {
+  width: 100vw;
+  height: 100vh;
+}
+
 #div-portada {
   width: 100vw;
   height: 100vh;
   background-image: url(../imagenes/home.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#div-menu {
+  width: 100vw;
+  height: 100vh;
+  padding: 80px 0px 0px 30px;
+}
+
+#div-menu ul li {
+  font-family: "Playfair Display", serif;
+  font-size: 77px;
+}
+#div-contacto {
+  width: 100vw;
+  height: 100vh;
+  padding: 80px 0px 0px 30px;
+}
+#ul-contacto {
+  display: flex;
+}
+
+#retrato {
+  background-image: url(../imagenes/autorretrato_1.jpeg);
+
+  width: 350px;
+  height: 500px;
+
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -22,5 +56,15 @@
     background-image: url(../imagenes/home-m.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  #div-menu {
+    padding: 180px 0px 0px 30px;
+  }
+  #div-menu ul li {
+    font-family: "Playfair Display", serif;
+    font-size: 52px;
+  }
+  #ul-contacto {
+    display: block;
   }
 }
