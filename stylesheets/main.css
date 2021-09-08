@@ -10,7 +10,7 @@
 #div-portada {
   width: 100vw;
   height: 100vh;
-  background-image: url(/imagenes/home.jpeg);
+  background-image: url("/imagenes/home.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -19,7 +19,7 @@
   #div-portada {
     width: 100vw;
     height: 100vh;
-    background-image: url(/imagenes/home-m.jpeg);
+    background-image: url("/imagenes/home-m.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
   }
