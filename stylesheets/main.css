@@ -10,7 +10,7 @@
 #div-portada {
   width: 100vw;
   height: 100vh;
-  background-image: url("https://github.com/MartaVara-WD/juan/blob/60318cf5b69f8fedd9e0733045fe83d60a172ab8/imagenes/home.jpeg");
+  background-image: url(../imagenes/home.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -19,7 +19,7 @@
   #div-portada {
     width: 100vw;
     height: 100vh;
-    background-image: url("https://github.com/MartaVara-WD/juan/blob/60318cf5b69f8fedd9e0733045fe83d60a172ab8/imagenes/home-m.jpeg");
+    background-image: url(../imagenes/home-m.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
   }
