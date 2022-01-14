@@ -6,47 +6,140 @@
   text-decoration: none;
   list-style-type: none;
 }
-
-#a-portada {
-  width: 100vw;
-  height: 100vh;
+.oculto {
+  display: none !important;
 }
 
-#div-portada {
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bloque-portada {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  z-index: 50;
+}
+
+#portada {
   width: 100vw;
   height: 100vh;
   background-image: url(../imagenes/home.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-#div-menu {
-  width: 100vw;
-  height: 100vh;
-  padding: 80px 0px 0px 30px;
+.cerrar-menu {
+  width: 100%;
+  text-align: right;
+  font-family: "Playfair Display", serif;
+  font-size: 77px;
+  padding-right: 60px;
 }
 
-#div-menu ul li {
+#bloque-menu {
+  width: 100vw;
+  height: 100vh;
+  padding: 130px 0px 0px 80px;
+  position: fixed;
+  top: 0%;
+  z-index: 25;
+  background-color: brown;
+}
+
+#bloque-menu ul li {
   font-family: "Playfair Display", serif;
   font-size: 77px;
 }
-#div-contacto {
-  width: 100vw;
+
+#btn-abrir-menu {
+  max-width: 1200px;
   height: 100vh;
-  padding: 80px 0px 0px 30px;
+  padding: 20px 0px 0px 30px;
+  display: block;
+  z-index: 10;
 }
+
+#bloque-contacto {
+  max-width: 1200px;
+  height: 100vh;
+  padding: 20px 0px 0px 30px;
+  display: block;
+  z-index: 5;
+}
+
+.bloque-menu-cabecera {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.boton-polilla {
+  display: inline-block;
+  background-image: url(../imagenes/mariposa.png);
+  width: 100px;
+  height: 90px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.titulo-bloque {
+  display: inline-block;
+  font-size: 60px;
+  padding-right: 40px;
+  font-family: "Playfair Display";
+  font-weight: 100;
+}
+
 #ul-contacto {
   display: flex;
 }
 
 #retrato {
   background-image: url(../imagenes/autorretrato_1.jpeg);
-
   width: 350px;
   height: 500px;
-
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#ul-contacto p {
+  padding: 0px 30px;
+  font-size: 24px;
+}
+#ul-contacto > li:nth-child(2) > p > a {
+  color: rgb(52, 23, 240);
+  cursor: pointer;
+}
+
+#bloque-art {
+  max-width: 1200px;
+  height: 100vh;
+  padding: 20px 0px 0px 30px;
+  display: block;
+  z-index: 6;
+}
+#bloque-art > ul {
+  padding-left: 25px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#bloque-art > ul > li {
+  margin: 12.5px 25px;
+}
+
+#bloque-art > ul > li > img {
+  width: 320px;
 }
 
 @media (orientation: portrait) {
