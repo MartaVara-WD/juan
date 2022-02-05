@@ -11,6 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Juanito</title>
   </head>
@@ -19,43 +25,67 @@
     <div id="bloque-menu">
       <div id="btn-cerrar-menu" class="cerrar-menu">x</div>
       <ul>
-        <li><a id="btn-art">art</a></li>
-        <li><a href="">shop</a></li>
-        <li><a id="btn-contacto">about+contact</a></li>
-        <li><a href="">instagram</a></li>
+        <li><a id="btn-art" class="botones-portada">art</a></li>
+        <li>
+          <a
+            id="btn-shop"
+            href="https://www.instagram.com/jondelusion/?hl=es"
+            target="_blank"
+            class="botones-portada"
+            >shop</a
+          >
+        </li>
+        <li><a id="btn-contacto" class="botones-portada">about+contact</a></li>
+        <li>
+          <a
+            id="btn-instagram"
+            class="botones-portada"
+            href="https://www.instagram.com/jondelusion/?hl=es"
+            target="_blank"
+            >instagram</a
+          >
+        </li>
       </ul>
     </div>
     <div id="bloque-art">
       <div class="bloque-menu-cabecera">
         <a class="boton-polilla"></a>
+        <p class="titulo-bloque">art</p>
       </div>
       <ul>
         <li>
-          <img src="./imagenes/autorretrato_1.jpeg" alt="" />
+          <div><img src="../imagenes/autorretrato_1.jpeg" alt="" /></div>
+
           <p>dibujo1</p>
         </li>
         <li>
-          <img src="./imagenes/chica.png" alt="" />
+          <div><img src="../imagenes/chica.png" alt="" /></div>
+
           <p>dibujo2</p>
         </li>
         <li>
-          <img src="./imagenes/chica-mar.png" alt="" />
+          <div><img src="../imagenes/chica-mar.png" alt="" /></div>
+
           <p>dibujo3</p>
         </li>
         <li>
-          <img src="./imagenes/guerrero.png" alt="" />
+          <div><img src="../imagenes/guerrero.png" alt="" /></div>
+
           <p>dibujo4</p>
         </li>
         <li>
-          <img src="./imagenes/autorretrato_1.jpeg" alt="" />
+          <div><img src="../imagenes/autorretrato_1.jpeg" alt="" /></div>
+
           <p>dibujo5</p>
         </li>
         <li>
-          <img src="./imagenes/chica.png" alt="" />
+          <div><img src="../imagenes/chica.png" alt="" /></div>
+
           <p>dibujo6</p>
         </li>
         <li>
-          <img src="./imagenes/guerrero.png" alt="" />
+          <div><img src="../imagenes/guerrero.png" alt="" /></div>
+
           <p>dibujo7</p>
         </li>
       </ul>
@@ -63,9 +93,10 @@
     <div id="bloque-contacto" class="oculto">
       <div class="bloque-menu-cabecera">
         <a class="boton-polilla"></a>
+        <p class="titulo-bloque">about+contact</p>
       </div>
       <ul id="ul-contacto">
-        <li><div id="retrato">xxx</div></li>
+        <li><div id="retrato"></div></li>
         <li>
           <p>
             Hola 🤺 <br /><br />Me llamo Juan, soy ilustrador y actualmente vivo
